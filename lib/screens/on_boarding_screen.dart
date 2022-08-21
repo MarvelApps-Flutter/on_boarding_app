@@ -1,7 +1,6 @@
 import 'package:carousel_slider/carousel_slider.dart';
 import 'package:dots_indicator/dots_indicator.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:on_boarding_app/app_config/app_config.dart';
 import 'package:on_boarding_app/constants/color_constants.dart';
 import '../models/on_boarding_image_model.dart';
@@ -33,17 +32,10 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
     
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle.light.copyWith(
-        statusBarColor: Colors.transparent,
-        systemNavigationBarColor: Colors.black,
-        statusBarIconBrightness: Brightness.dark,
-        systemNavigationBarIconBrightness: Brightness.dark,
-      ),
-      child: Scaffold(
+    return 
+      Scaffold(
         backgroundColor: ColorConstants.backgroundColor,
         body: buildBody(),
-      ),
     );
   }
 
