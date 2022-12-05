@@ -2,16 +2,16 @@ name: Android Release
 
 # 1
 on:
-  # 2
+  # 2 for automatic workflow if push and pull done on master branch
   push:
     branches: [ "master" ]
   pull_request:
     branches: [ "master" ]
 
-  # 3
+  # 3 for manual workflow
   workflow_dispatch:
 
-# 4
+# 4 for jobs 
 jobs:
   # 5
   build:
@@ -25,7 +25,7 @@ jobs:
       # 9
       - uses: actions/setup-java@v3
         with:
-          distribution: 'zulu'
+          distribution: 'zulu' # java disctribution names ,follow link https://github.com/actions/setup-java#supported-distributions
           java-version: "12.x"
       # 10   
       - uses: subosito/flutter-action@v2
