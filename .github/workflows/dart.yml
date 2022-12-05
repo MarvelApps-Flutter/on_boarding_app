@@ -32,11 +32,11 @@ jobs:
       - uses: subosito/flutter-action@v2 # it is responsible to set flutter environment
         with:
           # 11
-          flutter-version: "3.0.0"
-          channel: 'stable'
-          - run: flutter pub get
-          - run: flutter test
-          - run: flutter build apk
-          - run: flutter build appbundle
+        flutter-version: "3.0.0"
+        channel: 'stable'
+        - run: flutter pub get
+        - run: flutter test
+        - run: flutter build apk
+        - run: flutter build appbundle
       
      
