@@ -1,0 +1,4 @@
+#Sun Aug 21 17:24:21 IST 2022
+base.0=/Users/poonam/Documents/successive_proj/on_boarding_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
