@@ -1,4 +1,4 @@
-app_identifier("com.example.onBoardingApps") # The bundle identifier of your app
+app_identifier("com.example.onBoardingAp") # The bundle identifier of your app
 apple_id("poonam.kalra@successive.tech") # Your Apple Developer Portal username
 
 itc_team_id("118982899") # App Store Connect Team ID
