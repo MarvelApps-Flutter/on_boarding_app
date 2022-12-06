@@ -8,7 +8,7 @@ on:
   pull_request:
     branches: [ "master" ]
 
-  # 3 allows you to run this workflow manually
+  # 3 Allows you to run this workflow manually
   workflow_dispatch:
 
 # 4 for jobs 
