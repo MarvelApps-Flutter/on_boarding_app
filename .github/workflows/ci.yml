@@ -8,13 +8,10 @@ on:
   pull_request:
     branches: [ "master" ]
 
-  # 3 Allows you to run this workflow manually
-  workflow_dispatch:
-
 # 4 for jobs 
 jobs:
   # 5 name of job
-  build:
+  builds:
     # 6 
     runs-on: macos-latest
 
