@@ -1,5 +1,5 @@
 # On boarding demo
-A new flutter app for demonstrating on boarding demo.
+A new flutter app for demonstrating on boarding screens.
 
 # Demo
 <img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/gif/demo.gif" height="480px"></td>
@@ -8,12 +8,9 @@ A new flutter app for demonstrating on boarding demo.
 
 <table>
   <tr>
-    <td align="center" valign="center">Home Screen before Drag</td>
-     <td align="center" valign="center">Home Screen after Drag</td>
-  </tr>
-  <tr>
     <td><img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/android/android1.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/android/android2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/android/android3.png" height="480px"></td>
   </tr>
  </table>
 </br>
@@ -22,12 +19,9 @@ A new flutter app for demonstrating on boarding demo.
 
 <table>
   <tr>
-     <td align="center" valign="center">Home Screen before Drag</td>
-     <td align="center" valign="center">Home Screen after Drag</td>
-  </tr>
-  <tr>
     <td><img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/ios/ios1.png" height="480px"></td>
     <td><img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/ios/ios2.png" height="480px"></td>
+    <td><img src="https://github.com/MarvelApps-Flutter/on_boarding_app/blob/master/screenshots/ios/ios3.png" height="480px"></td>
   </tr>
  </table>
 
